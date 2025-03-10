@@ -1,0 +1,30 @@
+.footer {
+  color: var(--color-text-sub);
+  font-size: 0.8rem;
+  margin-top: 80px;
+  padding: 16px 24px;
+  text-align: center;
+}
+
+.nav {
+  margin-bottom: 16px;
+}
+
+.items {
+  display: flex;
+  font-size: 1rem;
+  gap: 40px;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .items {
+    flex-wrap: wrap;
+    row-gap: 8px;
+  }
+
+  .items {
+    width: 50%;
+  }
+}
